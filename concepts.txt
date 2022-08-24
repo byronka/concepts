@@ -1,0 +1,12 @@
+Node
+====
+
+command-line interactive Axios:
+
+(Run this from a directory with a package.json and dependencies you need)
+
+    node --experimental-repl-await
+
+    > import('axios').then(module => { axios = module});
+    > axios.default.get('whatever')
+
